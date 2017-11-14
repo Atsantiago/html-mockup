@@ -7,7 +7,11 @@
   padding: 0px 19%;
 }
 
-.top-bar li{
+.top-bar li {
   display: inline-block;
   padding: 20px;
+}
+
+.top-bar img {
+  width: 75px;
 }
