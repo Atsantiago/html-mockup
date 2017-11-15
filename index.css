@@ -4,12 +4,34 @@
 
 .top-bar {
   position: absolute;
-  padding: 0px 19%;
+  width: 100%;
+
+}
+
+.top-bar ul {
+  width: 525px;
+  margin: 0 auto;
 }
 
 .top-bar li {
   display: inline-block;
-  padding: 20px;
+  padding: 0 20px;
+  float: left;
+  position: relative;
+  top: 65px;
+  transform: translateY(-50%);
+}
+
+.top-bar li a {
+  text-decoration: none;
+  color: rgb(87, 85, 107);
+}
+
+.top-bar li a:hover {
+  color: #ce1b1b;
+  position:relative;
+  top: 2px;
+  opacity: 0.5;
 }
 
 .top-bar img {
